@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+        <style>
+            .jumbotron {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        #center {
+            position: absolute;
+            --windowWidth: 280px;
+            --windowHeight: 336px;
+            width: var(--windowWidth);
+            height: var(--windowHeight);
+            top: calc(50% - (var(--windowHeight)/2));
+            left: calc(50% - (var(--windowWidth)/2));
+        }
+        a.no-uline {
+            text-decoration: none;
+            color: black;
+        }
+        </style>
+    </head>
+    <body>
+        <a href="/" class="no-uline" style="width:100%; height:100%; display:flex; flex-direction:column;">
+        <div class="container">
+        <div class="jumbotron" id="center">
+            <img src="{% static 'images/logo.png' %}" style="width:100%; height:60%;"></img>
+                <p style="display:flex;">로그아웃이후 이용해주세요.</p>
+        </div>
+    </a>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+        <style>
+            .jumbotron {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        #center {
+            position: absolute;
+            --windowWidth: 280px;
+            --windowHeight: 336px;
+            width: var(--windowWidth);
+            height: var(--windowHeight);
+            top: calc(50% - (var(--windowHeight)/2));
+            left: calc(50% - (var(--windowWidth)/2));
+        }
+        a.no-uline {
+            text-decoration: none;
+            color: black;
+        }
+            .btn {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div class="jumbotron" id="center">
+                <p style="display:flex;">정말로 삭제하시겠습니까?</p>
+            <a href="delete/yes" class="btn btn-primary" style="margin:0.5em;">예</a>
+            <a href="/video/myVideos" class="btn btn-primary" style="margin:0.5em;">아니오</a>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>

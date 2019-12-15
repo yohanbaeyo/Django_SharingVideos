@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63db4afe-ed36-47cb-94a1-3ae69ba93c02" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UykjayT9Q8GiIJt2NEm6M50uve" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/templates/accounts" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\82108\Desktop\Programs\Django\SharingVideos\main\templates\accounts" />
+      <recent name="C:\Users\82108\Desktop\Programs\Django\SharingVideos\main\templates\video" />
+      <recent name="C:\Users\82108\Desktop\Programs\Django\SharingVideos\static" />
+      <recent name="C:\Users\82108\Desktop\Programs\Django\SharingVideos\media" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\82108\Desktop\Programs\Django\SharingVideos\main\templates\accounts" />
+      <recent name="C:\Users\82108\Desktop\Programs\Django\SharingVideos\main\templates\video" />
+      <recent name="C:\Users\82108\Desktop\Programs\Django\SharingVideos\static\images" />
+      <recent name="C:\Users\82108\Desktop\Programs\Django\SharingVideos\static" />
+      <recent name="C:\Users\82108\Desktop\Programs\Django\SharingVideos\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
+      <module name="SharingVideos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\82108\Desktop\Programs\Django\SharingVideos\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63db4afe-ed36-47cb-94a1-3ae69ba93c02" name="Default Changelist" comment="" />
+      <created>1576336358196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576336358196</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576336985495">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1576336985495" />
+    <state x="772" y="170" key="FileChooserDialogImpl" timestamp="1576336981012">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="772" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576336981012" />
+    <state width="710" height="144" key="GridCell.Tab.0.bottom" timestamp="1576415776487">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="710" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576415776487" />
+    <state width="710" height="144" key="GridCell.Tab.0.center" timestamp="1576415776487">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="710" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576415776487" />
+    <state width="710" height="144" key="GridCell.Tab.0.left" timestamp="1576415776487">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="710" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576415776487" />
+    <state width="710" height="144" key="GridCell.Tab.0.right" timestamp="1576415776487">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="710" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576415776487" />
+    <state x="539" y="55" width="972" height="710" key="SettingsEditor" timestamp="1576413392117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="539" y="55" width="972" height="710" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576413392117" />
+    <state x="855" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1576336370522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="855" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576336370522" />
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1576422001083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576422001083" />
+  </component>
+</project>

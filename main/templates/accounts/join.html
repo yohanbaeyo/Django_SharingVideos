@@ -1,0 +1,64 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .jumbotron {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #center {
+            position: absolute;
+            --windowWidth: 280px;
+            --windowHeight: 400px;
+            width: var(--windowWidth);
+            height: var(--windowHeight);
+            top: calc(50% - (var(--windowHeight)/2));
+            left: calc(50% - (var(--windowWidth)/2));
+        }
+        
+        #join {
+            font-size: 0.8rem;
+            color: #555555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" id="center">
+            <form method="POST" action="">
+                {% csrf_token %}
+                <h3 style="text-align: center; margin-bottom: 0.5em;">JOIN US</h3>
+                {%for i in form%}
+                <div class="form-group">
+                    {{i}}
+                </div>
+                {%endfor%}
+                <input type="submit" value="회원가입" class="btn-primary form-control btn-lg">
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="{% static 'js/bootstrap.js'%}"></script>
+</body>
+
+</html>
